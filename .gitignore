@@ -1,0 +1,5 @@
+# local transcript bundles stay out of the snapshot; they ship as the
+# submission's transcript upload, not as repository files
+*bundle*.tar.gz
+/output/
+__pycache__/
