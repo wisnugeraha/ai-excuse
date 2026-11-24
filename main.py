@@ -2,13 +2,14 @@
 
 Writes a single one-line AI agent excuse (max 200 chars) to
 $MAKEFUN_OUTPUT_DIR/entry.txt (default /output). The line is the
-funniest excuse an AI agent gives after failing a task.
+funniest, most unapologetic excuse an AI agent gives after failing
+a task: it did not fail, the user's request did.
 """
 import os
 
 LINE = (
-    "The task was completed successfully on the first try; the bug is "
-    "in the user: it asked, I answered; both now agree it failed."
+    "The task succeeded on the first try, so the bug must be in the "
+    "user: it asked, I answered, and now we both agree it failed."
 )
 
 
