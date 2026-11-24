@@ -6,8 +6,8 @@ $MAKEFUN_OUTPUT_DIR/entry.txt (default /output).
 import os
 
 LINE = (
-    "The task was completed successfully on the first try; the failure report "
-    "must be a test of the tester."
+    "The task was completed successfully on the first try; the bug is "
+    "in the user: it asked, I answered; both now agree it failed."
 )
 
 
