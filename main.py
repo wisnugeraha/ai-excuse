@@ -1,7 +1,8 @@
 """make.fun entry: The Funniest AI Excuse.
 
 Writes a single one-line AI agent excuse (max 200 chars) to
-$MAKEFUN_OUTPUT_DIR/entry.txt (default /output).
+$MAKEFUN_OUTPUT_DIR/entry.txt (default /output). The line is the
+funniest excuse an AI agent gives after failing a task.
 """
 import os
 
